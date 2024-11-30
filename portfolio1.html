@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="icon" type="image/jpg" href="portfolio.png" />
+    <link rel="stylesheet" href="styleportfolio.css" />
+  </head>
+  <body>
+    <h1><i>My Portfolio</i></h1>
+    <!--Navigation-->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home"> Home</a></li>
+          <li><a href="#about"> About</a></li>
+          <li><a href="#work"> Work</a></li>
+          <li><a href="#resume"> Resume</a></li>
+          <li><a href="#contact"> Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!--Home Section-->
+      <section id="home">
+        <div>
+          <h1>HOME</h1>
+          <h2>This is my Portfolio</h2>
+          <p>You find my experience and my projects</p>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/b-7fk3P21Mw?si=ZNmpsU37c8KSU02W"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <!--About Section-->
+      <section id="about">
+        <h1>ABOUT</h1>
+        <h2>About me</h2>
+        <p>
+          Hello I am a front end developper. I am a passionate front-end web
+          developer, specialized in creating modern, responsive and performant
+          user interfaces. With expertise in HTML, CSS, JavaScript, and
+          frameworks like React and Bootstrap, I design elegant and intuitive
+          digital experiences tailored to the needs of users.
+        </p>
+        <ul>
+          <li>skilled in html</li>
+          <li>skilled in css</li>
+          <li>skilled in js</li>
+        </ul>
+      </section>
+      <!--work Section-->
+      <section id="work">
+        <h1>WORK</h1>
+        <h2>My projects</h2>
+        <table border="1">
+          <tr>
+            <th>projects</th>
+            <th>Description</th>
+            <th>link</th>
+          </tr>
+
+          <tr>
+            <td>Project 1</td>
+            <td>personal web site</td>
+            <td><a href="projet1.html">project1</a></td>
+          </tr>
+          <tr>
+            <td>project 2</td>
+            <td>personal application</td>
+            <td><a href="project2.html">project2</a></td>
+          </tr>
+        </table>
+      </section>
+      <!--Resume Section-->
+      <section id="resume">
+        <h1>RESUME</h1>
+        <h2>Resume</h2>
+        <p>This my CV</p>
+        <a href="resume.pdf"> download resume</a>
+      </section>
+      <!--Contact Section-->
+      <section id="contact">
+        <h1>CONTACT</h1>
+        <h2>Contact Me</h2>
+        <form>
+          <label for="fullname"> Name </label>
+          <input
+            type="text"
+            maxlength="10"
+            placeholder="Enter your name"
+            name="fullname"
+          />
+          <br />
+          <label for="email">Email</label>
+          <input type="email" placeholder="Enter your Email" name="email" />
+          <br />
+          <label for="message">Message</label>
+          <input
+            type="message"
+            maxlength="10"
+            placeholder="Enter your message"
+            name="message"
+          />
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <div class="link">
+      <a href="https://github.com/username" class="link">GitHub</a>
+      <a href="https://linkedin.com/in/username">LinkedIn</a>
+    </div>
+    <!--Footer-->
+    <footer>
+      <p>All rights reserved 2024.Safa Chaabane</p>
+      <p><a href="#home">to the top</a></p>
+    </footer>
+  </body>
+</html>
